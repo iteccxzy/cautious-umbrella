@@ -1,4 +1,4 @@
-lista = range(1, 300)
+lista = range(1, 100)
 
 
 def isPrime(n):
@@ -12,11 +12,17 @@ def isPrime(n):
         else:
             for i in range(2, num):
                 if num % i == 0:
-                    num += 1
-        r.add(num)
-    for i in r:
-        print(i)
-        breakpoint()
+                    # num += 1
+                    break
+                else:
+                    r.add(num)
+
+        # r.add(num)
+    # for i in r:
+    #     print(i)
+    #     breakpoint()
+    print(r)
+
 
 if __name__ == '__main__':
     isPrime(lista)
