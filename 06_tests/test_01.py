@@ -5,6 +5,7 @@ from problemas import facto, primo
 
 
 class TestBuilFunc(unittest.TestCase):
+    
     # @classmethod
     # def setUpClass(cls):
     #     print('inicio')
